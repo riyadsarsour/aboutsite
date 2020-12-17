@@ -1,0 +1,95 @@
+{
+    "main": {
+      "name":"Riyad Sarsour",
+      "occupation":"Student Software Developer",
+      "description":"A criticial problem solver who leverages technology to find the answers he needs",
+      "image":"https://avatars2.githubusercontent.com/u/45983702?s=460&u=64583c665c2f8acc48656429cca30b3199709a0b&v=4",
+      "bio":"Riyad is a highly motivated and determined Senior at The University of North Carolina at Chapel Hill, pursuing a Bachelor’s of Science in Computer Science. His experience includes entry level software development, Technology project management, and marketing. Riyad enjoys learning how people interact with technology in the vast ways that they do. He currently seeks an opportunity to further his experience in the fields of software engineering, product management, or business intelligence/AI. Furthermore, he aims to gain further knowledge on developing impactful human-technology interactions. ",
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "email": "youremailhere@",
+      "city":"Cary/Chapel Hill",
+      "state":"North Carolina",
+      "website": "https://github.com/riyadsarsour",
+      "resumedownload":"aboutsite/public/riyadsarsour_resume.pdf",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/riyad-sarsour/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/riyadsarsour",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "skillmessage":"My skills includes utlizing multiple programming languages and managing multiple projects",
+      "education":[
+        {
+          "school":"University of North Carolina - Chapel Hill",
+          "degree":"B.S. of Computer Science",
+          "minor": "Statistics",
+          "graduated":"May 2021",
+          "description":"Well rounded course work in Software development and theory in conjuction with successful completion of Data Science coursework"
+        }
+      ],
+      "work":[
+        {
+          "company":"UNC Dept. of Computer Science",
+          "title":"Student Software Developer",
+          "years":"August 2019 - Present",
+          "description":"applab notes"
+        },
+        {
+          "company":"Wells Fargo",
+          "title":"Capital Markets Technology Intern",
+          "years":"July 2020 - August 2020",
+          "description":"WF CMT"
+        },
+        {
+            "company":"Cree, Inc",
+            "title":"Solutions Architect Intern",
+            "years":"May 2019 - August 2019",
+            "description":"Cree"
+          }
+      ],
+      "skills":[
+        {
+          "name":"Java",
+          "level":"60%"
+        },
+        {
+          "name":"JavaScript",
+          "level":"60%"
+        },
+        {
+          "name":"Python",
+          "level":"60%"
+        },
+        {
+            "name":"Clojure",
+            "level":"40%"
+          },
+        {
+            "name":"ReactJs",
+            "level":"40%"
+          },
+        {
+            "name":"Git",
+            "level":"60%"
+          }
+      ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"",
+          "category":"Personal",
+          "image":"",
+          "url":""
+        }
+      ]
+    }
+  }
