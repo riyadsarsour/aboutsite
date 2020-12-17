@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import resume from "../resume.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Header extends Component {
   render() {
@@ -13,44 +14,7 @@ export default class Header extends Component {
       );
     });
     return (
-      <header id="home">
-        <nav id="wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                bio
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Work experinece
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-
+      <header>
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {resume.main.name}.</h1>

@@ -31,7 +31,11 @@ const About = () => {
           </div>
           <div className="columns download">
             <p>
-              <a href={resumeDownload} className="button">
+              <a
+                href={resumeDownload}
+                download={resumeDownload}
+                className="button btn-rounded-white"
+              >
                 <i className="fas fa-download"></i> Download Resume
               </a>
             </p>
